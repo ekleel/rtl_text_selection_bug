@@ -110,8 +110,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             TextFormField(
               initialValue:
-                  'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى.',
-              maxLines: 1,
+                  'هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.',
+              maxLines: 3,
             ),
             Text(
               'You have pushed the button this many times:',
